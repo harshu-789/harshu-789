@@ -13,17 +13,21 @@
 body {
   font-family: sans-serif;
 }
-
+@media (max-width: 600px ){
+  .menu-bar{
+    
+  }
+}
 .logo {
-  /* width: 70px; */
-  height: 70px;
+  width: 100px;
+  height: 100px;
 }
 .logo img {
-  padding-top: 8px;
+padding-top: 2vw;
 }
 .menu-bar {
   background-color: #fff;
-  height: 80px;
+  height: 100px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -78,6 +82,8 @@ body {
   width: 150px;
   padding: 10px;
 }
+
+
 .hero {
   height: 80px;
   width: auto;
@@ -132,14 +138,14 @@ body {
   align-items: center;
   padding-left: 80px;
   padding-top: 25px;
-  padding-right: 65rem;
+  padding-right: 35rem;
 }
 .hero-action {
   width: max-content;
   display: flex;
   justify-content: center;
-  padding-top: 32rem;
-  padding-left: 82px;
+  padding-top: 22rem;
+  padding-left: 84px;
 }
 .btn {
   /* background-image: linear-gradient(-90deg, #ff3cac); */
@@ -181,6 +187,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  padding-top: 100px;
 }
 
 .column {
@@ -672,8 +679,12 @@ span {
 }
 
 .sliding-imgs {
-  /* animation: 3s linear 1s slidein; */
+  animation: ease-in 3s 3s infinite linear forwards;
   position: relative;
+}
+@keyframes mymove {
+  from {right: 0px;}
+  to {left: 100px;}
 }
 .sliding-imgs .opp {
   padding-bottom: 25px;
@@ -778,6 +789,8 @@ span {
 .copy-para p {
   padding-left: 55px;
 }
+
+
 .social {
   display: flex;
   justify-content: end;
