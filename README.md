@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **REACT**
 
-- 👯 I’m looking to collaborate on **Result Verification System**
+- 👯 I’m looking to collaborate on **LAZAREV**
 
 - 🤝 I’m looking for help with **BACKEND DEVELOPMENT**
 
